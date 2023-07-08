@@ -531,7 +531,8 @@ main {
     display: flex;
     flex-direction: row;
     gap: 12px;
-    width: 631px;
+    width: 100%;
+    /* width: 631px; */
 }
 
 .section05 .box02-left {
