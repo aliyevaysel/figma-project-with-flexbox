@@ -24,7 +24,7 @@ h1 {
     border-bottom: 1px solid #E7E7E7;
 }
 
-.nav-list .first-list {
+.nav-list li:nth-child(1) {
     margin-right: auto;
     display: flex;
     align-items: center;
@@ -36,14 +36,11 @@ h1 {
     text-decoration: none;
     color: #303031;
     font-size: 18px;
-    color: #303031;
-    font-size: 18px;
-    font-family: Roboto;
     font-weight: 600;
     letter-spacing: -0.36px;
 }
 
-.nav-list .last-list a {
+.nav-list li:nth-child(5) a {
     color: #71A894;
     font-weight: 800;
 }
@@ -857,11 +854,11 @@ main {
     margin: 120px 56px 40px;
 }
 
-.footer .first-list {
+.footer li:nth-child(1) {
     margin-right: auto;
 }
 
-.footer .first-list h6 {
+.footer li:nth-child(1) h6 {
     color: #303031;
     font-family: Open Sans;
     font-size: 24px;
@@ -881,7 +878,7 @@ main {
     text-decoration: none;
 }
 
-.footer .last-list02 a {
+.footer li:nth-child(5) a {
     color: #71A894;
     font-size: 20px;
     font-style: normal;
